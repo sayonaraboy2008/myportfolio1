@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Fira+Code:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono:regular,500,700);
+@import url(https://fonts.googleapis.com/css?family=Urbanist:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Urbanist:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+/* @import "tailwindcss"; */
+/* @apply {
+  --font-roboto: "Roboto";
+} */
+:root {
+  --asos-bg: #0a192f;
+  --spanclr: #64ffda;
+  --xiraclr: #8892b0;
+  --font-roboto: "Roboto";
+  /* font-family: "Fira Code", "Fira Mono", "Roboto" !important; */
+}
+/* Fontlar */
+header {
+  font-family: "Fira Code", "Fira Mono";
+}
+.firali {
+  font-family: "Fira Code", "Fira Mono";
+}
+.urbanistli {
+  font-family: "Urbanist";
+}
+/* * {
+  font-family: "Roboto";
+} */
+body {
+  background-color: var(--asos-bg);
+}
+.bluebg {
+  background-color: var(--asos-bg);
+}
+
+.xiraclr {
+  color: var(--xiraclr);
+}
+.spanclr {
+  color: var(--spanclr) !important;
+}
+/* .header-btn {
+  padding: 7px 10px;
+  background-color: var(--asos-bg);
+  position: relative;
+  border: 1px solid var(--spanclr);
+  border-radius: 4px;
+} */
+*,
+html {
+  box-sizing: border-box;
+}
+.hoverbtn:hover {
+  transform: translateX(-4px) translateY(-4px) !important;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+/* Res Navbar */
+.navHider {
+  transform: translateX(-100%);
+  transition: 0.2s ease-in-out;
+}
+header {
+  display: flex;
+}
+.headCon {
+  z-index: 999 !important;
+}
+
+.contactbox {
+  width: 100vh;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contactbox input,
+textarea {
+  padding: 15px 0px 15px 15px;
+  outline: none;
+  background: #ffffff20;
+}
+.contactbox input::placeholder {
+  font-family: "Urbanist";
+  color: white;
+}
+.contactbox textarea::placeholder {
+  font-family: "Urbanist";
+  color: white;
+}
+.xirabg {
+  background-color: #0a192f;
+  opacity: 95%;
+}
+.burgerIcon {
+  color: red;
+}
+
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+}
+.aos-item {
+  position: relative;
+}
+html {
+  scroll-behavior: smooth;
+}
