@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import SendMessage from "../components/SendMessage";
 import SendAlert from "../components/SendAlert";
 import SecondSection from "../components/SecondSection";
+import Builds from "../components/Builds";
 function Main() {
   return (
     <>
@@ -104,10 +105,7 @@ function Main() {
         </div>
         {/* Builds */}
         <div>
-          <h3 className="firali text-[22px] max-w-[800px] text-center m-auto font-semibold text-[#ccd6f6]">
-            Work on new projects is ongoing, and you will be able to view my
-            completed work here shortly...
-          </h3>
+          <Builds />
         </div>
       </section>
       {/* Section contact */}
