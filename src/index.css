@@ -117,4 +117,6 @@ textarea {
 }
 html {
   scroll-behavior: smooth;
+  scrollbar-width: 20px;
+  scrollbar-track-color: #64ffda;
 }

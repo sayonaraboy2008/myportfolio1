@@ -26,9 +26,8 @@ function Builds() {
             {/* birinchi element order bilan */}
             <div className={`${product.order} `}>
               <img
-                src={product.image}
+                src="https://i.postimg.cc/W3bDhQty/Inamjanov-Shop-Modern-Lighting-Collection-1.png"
                 className="rounded-[15px] m-auto"
-                alt={product.img}
               />
             </div>
             <div
